@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coopors", "coopors.csproj", "{F4DF9AF2-2ECB-427B-B073-6AC534A45D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\ConsoleApp1\ConsoleApp1.csproj", "{A9AE2433-4C8A-405E-AB69-12A7BA6166CC}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Email", "..\..\Desktop\Email", "{A1B1A4A6-2B13-46F3-854F-29016BAF184C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8454"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Desktop\Email\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8454\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8454"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Desktop\Email\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8454\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8454"
+		SlnRelativePath = "..\..\Desktop\Email\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4DF9AF2-2ECB-427B-B073-6AC534A45D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DF9AF2-2ECB-427B-B073-6AC534A45D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DF9AF2-2ECB-427B-B073-6AC534A45D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DF9AF2-2ECB-427B-B073-6AC534A45D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AE2433-4C8A-405E-AB69-12A7BA6166CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AE2433-4C8A-405E-AB69-12A7BA6166CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AE2433-4C8A-405E-AB69-12A7BA6166CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AE2433-4C8A-405E-AB69-12A7BA6166CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B1A4A6-2B13-46F3-854F-29016BAF184C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B1A4A6-2B13-46F3-854F-29016BAF184C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B1A4A6-2B13-46F3-854F-29016BAF184C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B1A4A6-2B13-46F3-854F-29016BAF184C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F34498E1-2D8C-4435-A34B-6021FE14CD12}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://softavion.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = coopors.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\ConsoleApp1\\ConsoleApp1.csproj
+		SccProjectName2 = ../ConsoleApp1
+		SccLocalPath2 = ..\\ConsoleApp1
+	EndGlobalSection
+EndGlobal

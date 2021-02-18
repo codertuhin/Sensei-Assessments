@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="" title="প্রথম পাতা"  description="" />
+      <siteMapNode  url="" title="আমাদের সম্পর্কে"     description="" />
+      <siteMapNode url="" title="নির্দেশনা"  description="" />
+      <siteMapNode url="" title="যোগাযোগ"  description="" />
+        <siteMapNode url="~\frmLogin.aspx" title="লগ আউট"   description="" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,442 @@
+@charset "UTF-8";
+/*		   Login
+ *=============================== */
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .row, input {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+.row {
+  zoom: 1; }
+  .row:before, .row:after {
+    content: "";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+  display: inline;
+  float: left; }
+
+.span1 {
+  width: 6.25%;
+  margin: 0 1.04167%; }
+
+.span2 {
+  width: 14.58333%;
+  margin: 0 1.04167%; }
+
+.span3 {
+  width: 22.91667%;
+  margin: 0 1.04167%; }
+
+.span4 {
+  width: 31.25%;
+  margin: 0 1.04167%; }
+
+.span5 {
+  width: 39.58333%;
+  margin: 0 1.04167%; }
+
+.span6 {
+  width: 47.91667%;
+  margin: 0 1.04167%; }
+
+.span7 {
+  width: 56.25%;
+  margin: 0 1.04167%; }
+
+.span8 {
+  width: 64.58333%;
+  margin: 0 1.04167%; }
+
+.span9 {
+  width: 72.91667%;
+  margin: 0 1.04167%; }
+
+.span10 {
+  width: 81.25%;
+  margin: 0 1.04167%; }
+
+.span11 {
+  width: 89.58333%;
+  margin: 0 1.04167%; }
+
+.span12 {
+  width: 97.91667%;
+  margin: 0 1.04167%; }
+
+.push1 {
+  margin-left: 9.375%; }
+
+.push2 {
+  margin-left: 17.70833%; }
+
+.push3 {
+  margin-left: 26.04167%; }
+
+.push4 {
+  margin-left: 34.375%; }
+
+.push5 {
+  margin-left: 42.70833%; }
+
+.push6 {
+  margin-left: 51.04167%; }
+
+.push7 {
+  margin-left: 59.375%; }
+
+.push8 {
+  margin-left: 67.70833%; }
+
+.push9 {
+  margin-left: 76.04167%; }
+
+.push10 {
+  margin-left: 84.375%; }
+
+.push11 {
+  margin-left: 92.70833%; }
+
+.push12 {
+  margin-left: 101.04167%; }
+
+.pull1 {
+  margin-right: 9.375%; }
+
+.pull2 {
+  margin-right: 17.70833%; }
+
+.pull3 {
+  margin-right: 26.04167%; }
+
+.pull4 {
+  margin-right: 34.375%; }
+
+.pull5 {
+  margin-right: 42.70833%; }
+
+.pull6 {
+  margin-right: 51.04167%; }
+
+.pull7 {
+  margin-right: 59.375%; }
+
+.pull8 {
+  margin-right: 67.70833%; }
+
+.pull9 {
+  margin-right: 76.04167%; }
+
+.pull10 {
+  margin-right: 84.375%; }
+
+.pull11 {
+  margin-right: 92.70833%; }
+
+.pull12 {
+  margin-right: 101.04167%; }
+
+.row {
+  display: block;
+  width: 102.08333%;
+  margin: 0 -1.04167%; }
+
+@font-face {
+  font-family: "v12-icons";
+  src: url("fonts/v12-icons.eot");
+  src: url("fonts/v12-icons.eot") format("embedded-opentype"), url("fonts/v12-icons.woff") format("woff"), url("fonts/v12-icons.svg") format("svg"), url("fonts/v12-icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"], [class*=" icon-"], .mainMenuPlus {
+  font-family: "v12-icons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-torx:before {
+  content: ""; }
+
+.icon-dashboard:before {
+  content: ""; }
+
+.icon-refresh:before {
+  content: ""; }
+
+.icon-close:before {
+  content: ""; }
+
+.icon-billed:before {
+  content: ""; }
+
+.icon-exclamation:before {
+  content: ""; }
+
+.icon-coin:before {
+  content: ""; }
+
+.icon-profit:before {
+  content: ""; }
+
+.icon-leads:before {
+  content: ""; }
+
+.icon-people:before {
+  content: ""; }
+
+.icon-jobs:before {
+  content: ""; }
+
+.icon-calendar:before {
+  content: ""; }
+
+.icon-materials:before {
+  content: ""; }
+
+.icon-invoices:before {
+  content: ""; }
+
+.icon-help:before {
+  content: ""; }
+
+.icon-doc:before {
+  content: ""; }
+
+.icon-reports:before {
+  content: ""; }
+
+.icon-utilities:before {
+  content: ""; }
+
+.icon-settings:before {
+  content: ""; }
+
+.icon-cart:before {
+  content: ""; }
+
+.icon-down-arrow:before {
+  content: ""; }
+
+.icon-left-arrow:before {
+  content: ""; }
+
+.icon-right-arrow:before {
+  content: ""; }
+
+.icon-up-arrow:before {
+  content: ""; }
+
+.icon-plus:before, .mainMenuPlus:before {
+  content: ""; }
+
+.icon-minus:before {
+  content: ""; }
+
+.icon-tick:before {
+  content: ""; }
+
+.icon-logout:before {
+  content: ""; }
+
+.icon-person:before {
+  content: ""; }
+
+.icon-edit:before {
+  content: ""; }
+
+.icon-print:before {
+  content: ""; }
+
+.icon-tasks:before {
+  content: ""; }
+
+.icon-quotes:before {
+  content: ""; }
+
+.icon-alert:before {
+  content: ""; }
+
+.icon-bookmark:before {
+  content: ""; }
+
+.icon-question:before {
+  content: ""; }
+
+.icon-search:before {
+  content: ""; }
+
+.icon-move:before {
+  content: ""; }
+
+.icon-unlock:before {
+  content: ""; }
+
+.icon-lock:before {
+  content: ""; }
+
+body {
+  margin: 0 0 20px;
+  min-width: 1200px;
+  font-family: "Roboto", Arial;
+  font-size: 12px; }
+
+input {
+  padding: 3px 5px;
+  margin: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-family: "Roboto", Arial;
+  font-weight: 400; }
+  input:focus {
+    background-color: #ffffcc;
+    outline: 0; }
+
+.fieldHeader {
+  display: block;
+  margin: 15px 0px 8px 0px;
+  font-weight: 600;
+  color: #4c4c4c; }
+
+.hide {
+  display: none; }
+
+.textGreen {
+  color: #40AE23; }
+
+.textDarkBlue {
+  color: #004b8d !important; }
+#loginPage {
+  background: #fff; }
+  #loginPage .whiteBox {
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px 0;
+    margin: 10% auto auto auto;
+    border: 1px solid #d9d9d9; }
+  #loginPage #loginForm {
+    width: 460px;
+    margin: 0 auto; }
+  #loginPage #logo {
+    margin-left: 5px; }
+  #loginPage .login {
+    margin-bottom: 15px; }
+  #loginPage .licenseInfo p {
+    font-size: 0.9em;
+    color: #999; }
+  #loginPage .mailAccountNotSetError {
+    color: #40AE23;
+    font-size: 1.25em;
+    margin-top: 10px; }
+    #loginPage .mailAccountNotSetError a {
+      color: #333; }
+      #loginPage .mailAccountNotSetError a:hover {
+        color: #666; }
+  #loginPage .requestSignInMessage {
+    font-size: 1.25em;
+    margin-top: 20px; }
+    #loginPage .requestSignInMessage .icon-exclamation {
+      font-size: 1.75em;
+      vertical-align: -20%; }
+
+.innerBox .btnLogin {
+  height: 24px;
+  font-size: 14px;
+  background: #00aeef;
+  color: #fff;
+  border: 0;
+  margin-top: 37px;
+  padding: 0px 15px 0px 15px;
+  cursor: pointer; }
+.innerBox .trialButton {
+  margin: 20px auto 0px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 0;
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 16px;
+  line-height: 1.33;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block; }
+  .innerBox .trialButton:hover {
+    background: rgba(0, 0, 0, 0.6); }
+  .innerBox .trialButton span {
+    color: #40AE23;
+    vertical-align: -6%; }
+  .innerBox .trialButton img {
+    width: 100px;
+    vertical-align: bottom;
+    margin-right: 10px; }
+
+.simproUrl {
+  font-size: 14px;
+  color: #999;
+  margin-top: 41px; }
+
+#gConnect {
+  display: block;
+  height: 70px;
+  margin-top: 10px; }
+  #gConnect:before {
+    content: "OR";
+    height: 20px;
+    width: 12%;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 45%;
+    background: white;
+    color: #999;
+    cursor: default; }
+  #gConnect #gDynamicButton {
+    width: 183px;
+    margin: 0 auto; }
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: silver; }
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 20px auto; }
+  .spinner .doubleBounce1, .spinner .doubleBounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #00aeef;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    animation: bounce 2s infinite ease-in-out; }
+  .spinner .doubleBounce2 {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s; }
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1); } }
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0); }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+/*# sourceMappingURL=login.css.map */

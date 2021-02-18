@@ -1,0 +1,107 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Downloads.aspx.cs" Inherits="coopors.Downloads" %>
+
+<%@ Register Assembly="DevExpress.Web.Bootstrap.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.Bootstrap" TagPrefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+    <br />
+    <br />
+
+
+
+
+    <div class="panel panel-primary">
+                    <div class="panel-heading text-left">
+                        Downloads
+                    </div>
+
+                             <div class="panel-body">
+                            <div class="row ">
+
+                                <div class="col-md=8">
+                                    <dx:ASPxFormLayout runat="server" Width="100%">
+        <Items>
+            <dx:LayoutItem Caption=" " CaptionSettings-Location="Top">
+                <LayoutItemNestedControlCollection>
+                    <dx:LayoutItemNestedControlContainer>
+                        <dx:ASPxComboBox ID="ComboBox" ValueField="id" Width="300px"  EnableTheming="true" NullText="Select an Assessment"  DropDownRows="4" CallbackPageSize="5"
+        ForceDataBinding="true" TextField="Assessment"  runat="server">
+                                        <ValidationSettings RequiredField-IsRequired="true" ErrorText="Please select an assessment" />
+        <ItemTemplate>
+            <table>
+                <tr>
+                   
+                    <td class="name"><%# Eval("Assessment") %></td>
+                </tr>
+                <tr>
+                    <td class="description">
+                        <div class="contactInfo">
+                            <%# Eval("CreationDate") %><br />
+                           
+                        </div>
+                       
+                    </td>
+                </tr>
+            </table>
+        </ItemTemplate>
+        <ItemStyle>
+            <SelectedStyle CssClass="selectedItem" />
+            <HoverStyle CssClass="hoveredItem" />
+        </ItemStyle>
+    </dx:ASPxComboBox>
+                    </dx:LayoutItemNestedControlContainer>
+                </LayoutItemNestedControlCollection>
+
+            </dx:LayoutItem>
+           
+        </Items>
+    </dx:ASPxFormLayout>
+                                </div>
+
+                            
+
+                                <div class="col-md-4">
+                                    <br />
+                        <dx:BootstrapButton ID="btnDownload" runat="server" Text="Download" Width="150px" OnClick="btnDownload_Click">
+                        <SettingsBootstrap RenderOption="Danger" />            
+                        </dx:BootstrapButton>
+                                </div>
+
+                                
+                                
+                </div>
+                     </div>   
+                </div>
+
+
+    <style type="text/css">
+        .name {
+            font-weight: bold;
+            padding-top: 5px;
+            padding-left: 10px;
+        }
+        .photo {
+            width: 84px;
+            height: 84px;
+            vertical-align: middle;
+        }
+        .frame {
+            border: 1px solid lightgray;
+            padding: 4px;
+        }
+        .description {
+            color: gray;
+            padding-top: 1px;
+            padding-left: 10px;
+        }
+        .contactInfo {
+            padding-bottom: 11px;
+        }
+        .selectedItem .description,
+        .hoveredItem .description {
+            color: inherit; /* The description section's text color is taken from the applied theme's selected and hovered styles. */
+        }
+    </style>
+</asp:Content>

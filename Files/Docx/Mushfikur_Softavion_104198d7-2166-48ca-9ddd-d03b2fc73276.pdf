@@ -1,0 +1,814 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+			Sheet1</title>
+		<style type="text/css">
+			td {color:#000000;background-color:#FFFFFF;font-family:Calibri; font-size:12pt; font-weight:normal; font-style:normal;white-space:nowrap}
+			tr {height:21px}
+			.csE08B774A{vertical-align:bottom;color:#000000;background-color:#FFFFFF}
+			.csAC7C4752{font-size:16pt;font-weight:bold;text-decoration:underline;color:#000000;background-color:#FFFFFF}
+			.csA13AC4D2{color:#000000;background-color:#FFFFFF}
+			.csDE26211D{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs57009694{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs8CBCB7BD{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF}
+			.cs99A49089{font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px}
+			.cs7E81B0F7{font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.cs577403DA{color:#000000;background-color:#FFFF00;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.cs44196403{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.csE57D8BB0{font-weight:bold;color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.csE42FD66F{font-weight:bold;color:#000000;background-color:#FFFFFF}
+			.cs393310BE{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs71CA533D{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs5F56A95B{color:#000000;background-color:#FFFFFF;overflow:hidden}
+			.csE8E38F8C{color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.csD34FCD58{color:#000000;background-color:#FFFFFF;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.csBFE95C3{font-family:'Times New Roman';color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px}
+			.csBB915FB4{color:#000000;background-color:#FFFFFF;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.cs21CE1097{font-family:Garamond;font-weight:bold;color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.csAAA7D557{font-family:Garamond;font-weight:bold;color:#000000;background-color:#FFFFFF;overflow:hidden}
+			.cs6636594A{color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px}
+			.cs5EF8C3BD{color:#000000;background-color:#FFFFFF;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px}
+			.cs21FC4A98{color:#000000;background-color:#FFFFFF;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.cs4A6D04A1{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:1px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs2E9AA18D{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px}
+			.csAEF65935{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px}
+			.cs2925AA32{color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.csA3ED1413{font-size:14pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px}
+			.cs7687370A{font-size:14pt;font-weight:bold;color:#000000;background-color:#FFFFFF}
+			.csC55BDE6C{color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px}
+			.cs10CD818A{color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs52F80FEE{font-size:16pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-left-style:solid;border-left-color:#000000;border-left-width:2px}
+			.cs8D667551{font-size:16pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:1px}
+			.cs7564B6CF{font-size:16pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:1px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.csB24E9904{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:1px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:1px;border-right-style:solid;border-right-color:#000000;border-right-width:1px}
+			.cs3C3DC345{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:1px;border-left-style:solid;border-left-color:#000000;border-left-width:1px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:1px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.csCA853ABD{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:1px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:1px}
+			.cs547464FE{font-size:20pt;font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:1px;border-left-style:solid;border-left-color:#000000;border-left-width:1px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px}
+			.cs9D8A155E{font-weight:bold;color:#000000;background-color:#FFFFFF;border-top-style:solid;border-top-color:#000000;border-top-width:2px;border-left-style:solid;border-left-color:#000000;border-left-width:2px;border-bottom-style:solid;border-bottom-color:#000000;border-bottom-width:2px;border-right-style:solid;border-right-color:#000000;border-right-width:2px;overflow:hidden}
+			.cs66D170F9{font-weight:bold;color:#000000;background-color:#FFFFFF;overflow:hidden}
+		</style>
+	</head>
+	<body>
+		<table style="width:1126px;table-layout:fixed;border-spacing:0;border-collapse:collapse;">
+			<colgroup>
+				<col style="width:21px;" /><col style="width:47px;" /><col style="width:211px;" /><col style="width:476px;" /><col span="2" style="width:53px;" /><col style="width:89px;" /><col span="2" style="width:88px;" /></colgroup>
+			<tr style="display:none;height:0px;">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr style="height:28px;">
+				<td class="csE08B774A"></td>
+				<td class="csAC7C4752" style="padding-left:2px;vertical-align:bottom;"><div>
+					Assessment form</div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:100px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csDE26211D" colspan="4" style="vertical-align:top;"><div style="position:relative;height:0px;width:0px;left:-1px;top:-1px;">
+					<img alt="Image left : 258px, top : 6px" src="data:image/png;base64,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" style="position:absolute;left:258px;top:6px;border-width:0px;" /></div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:35px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs57009694" colspan="4" style="text-align:center;vertical-align:middle;">Sensei IQ-EQ Assessment</td>
+				<td class="cs8CBCB7BD"></td>
+				<td class="csAC7C4752" style="padding-left:2px;vertical-align:bottom;"><div>
+					Report generation formulas</div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs99A49089"></td>
+				<td class="cs7E81B0F7" style="text-align:right;vertical-align:bottom;padding-right:4px;">Name:</td>
+				<td class="cs577403DA" style="padding-left:2px;vertical-align:bottom;">Mushfikur</td>
+				<td class="cs44196403"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csE57D8BB0" colspan="4" style="text-align:center;vertical-align:middle;">Mark '1' [Numeric one] for the statement more in line with your beliefs from each pair of statements</td>
+				<td class="csE42FD66F"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="padding-left:2px;vertical-align:bottom;">IQ</td>
+				<td class="csA13AC4D2" style="padding-left:2px;vertical-align:bottom;">EQ</td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs393310BE" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When you wake up in the morning, do you;</td>
+				<td class="cs71CA533D" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Plan the activities for the day.</td>
+				<td class="cs71CA533D" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Start working on what you feel needs to be done.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">2</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When deciding what to wear to work, you select;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Clothes based on the activities planned for the day.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">What you feel good wearing.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">3</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When selecting a birthday present, you will select;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Something you feel will make him/her happy.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Something that is practical based on the age and gender </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">4</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When deciding what to eat, you select;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">something you feel like eating depending on your mood at the time</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">food that is nutritionally valuable</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">5</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">At team meetings you prefer to discuss;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Strategies, plans and processes. </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Relationships, communications and trust issues </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">6</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">The most important aspects of a plan for you is;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Objectives, strategies, plans, timelines and responsibilities.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">People, values, relationships and corporate culture.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">7</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">More budgets should be allocated to;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Buying new equipment and maintaining them. </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Developing people and building teamwork.  </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">8</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When a team does not meet committments, you would first;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Check if people supported each other to implement plans.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:36px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Check if the strategy was implemented as planned.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">9</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Organization success depends on;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Excellent trust between each other. </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+			</tr>
+			<tr style="height:24px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Having technically competent people for respective functions.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">10</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When appreciating someone, you would first;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Tell them what they did and the contribution they made.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Tell them how you felt.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:28px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">11</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When someone is worried about a tough target;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">You will listen and understand what’s bothering him/her.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">Give them reasons to help them not to worry.</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:27px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">12</td>
+				<td class="cs393310BE" rowspan="2" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">When hiring someone to your team;</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">They should be technically competent </td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csE8E38F8C" style="word-break:normal;white-space:normal;"></td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:middle;">They should fit into the team</td>
+				<td class="csD34FCD58" style="word-break:normal;white-space:normal;text-align:right;vertical-align:middle;padding-right:4px;">1</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">0</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">1</td>
+			</tr>
+			<tr style="height:3px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csBFE95C3"></td>
+				<td class="csA13AC4D2" style="padding-left:2px;vertical-align:bottom;"><div>
+					Softavion, codertuhin@gmail.com</div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:53px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs21CE1097" colspan="4" style="word-break:normal;white-space:normal;text-align:center;vertical-align:middle;">Copy Right: Sensei International: 445 Park Avenue @ 57th Street , 9th Floor, New York, NY 10022, USA.                                                                                  E Mail: www.sensei-international.com</td>
+				<td class="csAAA7D557" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">6</td>
+				<td class="csA13AC4D2" style="text-align:right;vertical-align:bottom;padding-right:4px;">6</td>
+			</tr>
+			<tr style="height:7px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs6636594A"></td>
+				<td class="cs5EF8C3BD"></td>
+				<td class="cs5EF8C3BD"></td>
+				<td class="cs21FC4A98"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr style="height:28px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csAC7C4752" style="padding-left:2px;vertical-align:bottom;"><div>
+					Report </div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr style="height:93px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csDE26211D" colspan="4" style="vertical-align:top;"><div style="position:relative;height:0px;width:0px;left:-1px;top:-1px;">
+					<img alt="Image left : 267px, top : 6px" src="data:image/png;base64,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" style="position:absolute;left:267px;top:6px;border-width:0px;" /></div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:41px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs4A6D04A1" colspan="4" style="text-align:center;vertical-align:middle;">Sensei IQ-EQ Assessment</td>
+				<td class="cs8CBCB7BD"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:11px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs2E9AA18D"></td>
+				<td class="csAEF65935"></td>
+				<td class="csAEF65935"></td>
+				<td class="cs2925AA32"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:25px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csA3ED1413" style="padding-left:2px;vertical-align:bottom;">Dear</td>
+				<td class="cs7687370A" style="padding-left:2px;vertical-align:bottom;">Mushfikur</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:8px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C" style="padding-left:2px;vertical-align:bottom;"><div>
+					We are delighted to provide you with your Sensei IQ EQ assessment report.</div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:9px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs10CD818A" colspan="4" rowspan="4" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:top;">This report attempts to explore the way you prefer to decide and act, based on two important criteria, IQ (Intelligence Quotient) vs. EQ (Emotional Quotient). Those with a high IQ score uses the brain and those with high EQ score uses the heart in decisions and actions. There are other criteria such as left brain vs right brain, introvert vs extrovert, unique-ability, mutuality, purposefulness etc. and such aspects need to be considered for a more holistic view. However, since each of the parts contribute towards the bigger picture, exploring and dealing with the IQ vs EQ balance provides useful insights in understanding yourself.</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:69px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:11px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:29px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs52F80FEE"></td>
+				<td class="cs8D667551" style="text-align:center;vertical-align:bottom;">Quotient</td>
+				<td class="cs7564B6CF" style="text-align:center;vertical-align:bottom;">Preference</td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:35px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csB24E9904" style="text-align:center;vertical-align:bottom;">IQ</td>
+				<td class="cs3C3DC345" style="text-align:center;vertical-align:bottom;padding-right:4px;">50%</td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:36px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csCA853ABD" style="text-align:center;vertical-align:bottom;">EQ</td>
+				<td class="cs547464FE" style="text-align:center;vertical-align:bottom;padding-right:4px;">50%</td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:23px;">
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="cs8CBCB7BD"></td>
+				<td class="cs8CBCB7BD"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C" style="padding-left:2px;vertical-align:bottom;"><div>
+					Lets examine the two aspects;</div>
+				</td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs10CD818A" colspan="4" rowspan="7" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:top;">The IQ Aspect: If your IQ percentage score is high, you tend to use more of your brain in deciding and acting. Your thought process and reasoning is supported with information, formulas and processes. It is an indication on your reliance on IQ more than EQ. The danger of being over-reliant on this mode is that you may not consider emotions of people involved as well as yours in your decisions and actions. It will be difficult to get the buy-in of others and to motivate them due to the difficulty in emotionally engaging them due to the lack of emotional intent and connection.  This may also hinder you listening to your inner-voice (sub-conscious mind), which may try to help you in deciding and acting.<br><br></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs10CD818A" colspan="4" rowspan="7" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:top;">The EQ Aspect: If your EQ percentage score is high, you tend to use more of your emotions in deciding and acting. Your thought process is influenced by your concern for others, own emotions and gut feel. It is an indication on your reliance on EQ more than IQ. The danger of being over-reliant on this mode is that you may not adequately consider information, formulas and processes in the decisions you make and action you take. It will be difficult to get the approval of senior leadership who rely on logical reasoning, financial justifications etc. This may also hinder you researching and connecting with others who are more technical in their orientation, thereby reducing the quality of the decision and effectiveness of execution.  <br></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="csC55BDE6C"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csBB915FB4"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs10CD818A" colspan="4" rowspan="6" style="word-break:normal;white-space:normal;padding-left:2px;vertical-align:top;">Therefore, having a balanced IQ-EQ score would be useful, while jobs which are more technical in nature may require a higher IQ score and jobs which are more adaptive in nature may require a higher EQ score. It is also seen that good leadership requires a higher EQ score, which needs to increase as you go up the corporate ladder. However, it is important for each of us to determine the right IQ-EQ mix for our respective jobs based on these guidelines, as well as industry, technology, people, environmental and situational aspects, so that we can work towards developing the most useful mix for our current and potential roles.</td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs5F56A95B" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:22px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs6636594A"></td>
+				<td class="cs5EF8C3BD"></td>
+				<td class="cs5EF8C3BD"></td>
+				<td class="cs21FC4A98"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr>
+				<td class="csA13AC4D2"></td>
+				<td class="cs9D8A155E" colspan="4" rowspan="2" style="word-break:normal;white-space:normal;text-align:center;vertical-align:middle;">Copy Right: Sensei International: 445 Park Avenue @ 57th Street , 9th Floor, New York, NY 10022, USA.                           E Mail: www.sensei-international.com</td>
+				<td class="cs66D170F9" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+			<tr style="height:29px;">
+				<td class="csA13AC4D2"></td>
+				<td class="cs66D170F9" style="word-break:normal;white-space:normal;"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+				<td class="csA13AC4D2"></td>
+			</tr>
+		</table>
+	</body>
+</html>
